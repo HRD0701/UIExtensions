@@ -22,7 +22,7 @@ pod 'UIExtensions'
 
 ## Author
 
-HRD0701, apple@alldealzz.com
+HRD0701, hardik.bangoria0701@gmail.com
 
 ## License
 

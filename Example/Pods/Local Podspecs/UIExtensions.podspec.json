@@ -1,0 +1,22 @@
+{
+  "name": "UIExtensions",
+  "version": "0.1.0",
+  "summary": "A short description of UIExtensions.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/HRD0701/UIExtensions",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "HRD0701": "apple@alldealzz.com"
+  },
+  "source": {
+    "git": "https://github.com/HRD0701/UIExtensions.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "UIExtensions/Classes/**/*"
+}
