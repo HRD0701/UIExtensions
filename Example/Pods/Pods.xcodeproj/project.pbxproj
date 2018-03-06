@@ -11,8 +11,9 @@
 		2FE46EA4C6809B6A66D0D7785F95BD5E /* Pods-UIExtensions_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BBA1013FA6D59D3B1F452E0DAF9E3AEE /* Pods-UIExtensions_Tests-dummy.m */; };
 		312AE6336A1BE0F301DB70CB34C58397 /* UIExtensions-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C24E84F3105D45BC0CB6AFBDEE6677C3 /* UIExtensions-dummy.m */; };
 		330E2144BEB334461AFCF9F9B1AFA9D5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		567C66D2204E775B000D01A5 /* TFExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 567C66D1204E775B000D01A5 /* TFExtension.swift */; };
+		567C66D4204E77BC000D01A5 /* VCExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 567C66D3204E77BC000D01A5 /* VCExtension.swift */; };
 		6416908B8ECE9527D87DF190D75954A8 /* Pods-UIExtensions_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9381B75FD3897E5C9A5B263EA868746C /* Pods-UIExtensions_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7DD7DC14B8727C6DFE6697EC3B922847 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B52BE5E67EE2AF0579E7AC96608E276 /* ReplaceMe.swift */; };
 		A20037C74E5EED21ED6EB25948A7380C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		DE15EF5E5B6A2DA50DB678AF105415DE /* Pods-UIExtensions_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4798BFC4051544AF04A4645056A9CF08 /* Pods-UIExtensions_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F3EF2229DB893EFA2025E30896D45603 /* UIExtensions-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BAABAA08FF45465EA78A949121E50A09 /* UIExtensions-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -38,9 +39,10 @@
 		4798BFC4051544AF04A4645056A9CF08 /* Pods-UIExtensions_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UIExtensions_Example-umbrella.h"; sourceTree = "<group>"; };
 		4A4900E4D3C7AEB5E62E5575883552AA /* Pods-UIExtensions_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UIExtensions_Example-resources.sh"; sourceTree = "<group>"; };
 		541B94BFDBD1F1FA6419842BF376D2A9 /* UIExtensions.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = UIExtensions.modulemap; sourceTree = "<group>"; };
+		567C66D1204E775B000D01A5 /* TFExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TFExtension.swift; path = UIExtensions/Classes/TFExtension.swift; sourceTree = "<group>"; };
+		567C66D3204E77BC000D01A5 /* VCExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = VCExtension.swift; path = UIExtensions/Classes/VCExtension.swift; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		68E2011289DFD3222BDF64B43F97B134 /* Pods_UIExtensions_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UIExtensions_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6B52BE5E67EE2AF0579E7AC96608E276 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = UIExtensions/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		77D253301946EDBBF4D82277AE94EBEE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7CB271901271F14C5707DAD62344336C /* Pods-UIExtensions_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UIExtensions_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		7EE9A9CD7BA32C23DEE146F71613D927 /* Pods-UIExtensions_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UIExtensions_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -199,8 +201,9 @@
 		E3F08CCB341EAD459FD2D8805972EE74 /* UIExtensions */ = {
 			isa = PBXGroup;
 			children = (
-				6B52BE5E67EE2AF0579E7AC96608E276 /* ReplaceMe.swift */,
 				7BBA9377A06A08E3791B2A64E41A170B /* Support Files */,
+				567C66D1204E775B000D01A5 /* TFExtension.swift */,
+				567C66D3204E77BC000D01A5 /* VCExtension.swift */,
 			);
 			name = UIExtensions;
 			path = ../..;
@@ -329,8 +332,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7DD7DC14B8727C6DFE6697EC3B922847 /* ReplaceMe.swift in Sources */,
+				567C66D2204E775B000D01A5 /* TFExtension.swift in Sources */,
 				312AE6336A1BE0F301DB70CB34C58397 /* UIExtensions-dummy.m in Sources */,
+				567C66D4204E77BC000D01A5 /* VCExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
